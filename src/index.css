@@ -1,0 +1,46 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Parisienne&family=Ubuntu&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+font-family: 'Crimson Text', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Parisienne', cursive;
+font-family: 'Ubuntu', sans-serif;
+}
+body{
+  background: #000;
+}
+h1,h4,p,a{
+  color:white;
+  text-decoration: none;
+  
+}
+ul{
+  list-style-type: none;
+
+}
+.btn{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background:#e7e7e7;
+  color:#222;
+  border:1px solid #fff;
+  font-weight: 600;
+  cursor:pointer;
+  border-radius: 40px;
+}
+.btn-light{
+  background: transparent;
+  color:#fff;
+
+}
+.btn:hover {
+  background: rgba(255,255,255,0.5);
+  color:#fff;
+  transition:0.35;
+}

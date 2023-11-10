@@ -1,0 +1,8 @@
+no such file or directory, stat 'C:\Users\amgai\OneDrive\Desktop\Personal Portfoliio\Portfolio\build'
+    at Object.statSync (node:fs:1615:3)
+    at Object.statSync (C:\Users\amgai\OneDrive\Desktop\Personal Portfoliio\Portfolio\node_modules\graceful-fs\polyfills.js:319:16)
+    at Object.publish (C:\Users\amgai\OneDrive\Desktop\Personal Portfoliio\Portfolio\node_modules\gh-pages\lib\index.js:90:13)
+    at C:\Users\amgai\OneDrive\Desktop\Personal Portfoliio\Portfolio\node_modules\gh-pages\bin\gh-pages.js:12:13
+    at new Promise (<anonymous>)
+    at publish (C:\Users\amgai\OneDrive\Desktop\Personal Portfoliio\Portfolio\node_modules\gh-pages\bin\gh-pages.js:10:10)
+    at C:\Users\amgai\OneDrive\Desktop\Personal Portfoliio\Portfolio\node_modules\gh-pages\bin\gh-pages.js:133:12
