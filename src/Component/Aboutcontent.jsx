@@ -1,6 +1,6 @@
 import React from "react";
 import "./Aboutcss.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import pimg from "./../assets/p5.jpg";
 export default function Aboutcontent() {
   return (
@@ -24,7 +24,7 @@ export default function Aboutcontent() {
           contribute to the evolving tech landscape. Let's connect and explore
           the possibilities of building something amazing together!
         </p>
-        <Link to="/contact">
+        <Link to="/PORTFOLIO/contact">
           <button className="btn">Contact</button>
         </Link>
       </div>
