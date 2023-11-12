@@ -22,7 +22,7 @@ export default function Navbar() {
   window.addEventListener("scroll", changecolor);
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <Link to="/">
+      <Link to="/PORTFOLIO">
         <h1>
           <div className="extra">Samman </div>
         </h1>
